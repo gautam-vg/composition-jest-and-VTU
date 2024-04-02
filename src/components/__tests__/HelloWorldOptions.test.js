@@ -1,7 +1,7 @@
-import HelloWorld       from '@/components/HelloWorld.vue'
+import HelloWorld       from '@/components/HelloWorldOptions.vue'
 import { shallowMount } from '@vue/test-utils'
 
-describe('HelloWorld.vue', () => {
+describe('HelloWorldOptions.vue', () => {
 	it('passes', () => {
 		const propsData = {
 			msg: 'This is a greeting'
